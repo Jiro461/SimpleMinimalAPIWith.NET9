@@ -1,0 +1,36 @@
+﻿@MiminalAPI_HostAddress = http://localhost:5000
+
+POST {{MiminalAPI_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog 3",
+  "isComplete":false
+}
+###
+
+
+GET {{MiminalAPI_HostAddress}}/todoitems
+
+###
+
+GET {{MiminalAPI_HostAddress}}/todoitems/complete
+
+###
+
+DELETE {{MiminalAPI_HostAddress}}/todoitems/1
+
+###
+
+GET {{MiminalAPI_HostAddress}}/todoitems/2
+
+###
+
+PUT {{MiminalAPI_HostAddress}}/todoitems/2
+Content-Type: application/json
+
+{
+  "name":"walk dog Test Put Method",
+  "isComplete":true
+}
+###
