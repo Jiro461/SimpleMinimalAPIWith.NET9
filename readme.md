@@ -53,22 +53,22 @@ Dưới đây là các bước thử nghiệm API bằng công cụ như Postman
        "isComplete": false
      }
      ```
-     ![Example Image](images/Anh1.png)
+     ![Example Image](./images/Anh1.png)
 2. **Lấy danh sách tất cả công việc** (GET)
    - URL: `http://localhost:5000/todoitems`
-        ![Example Image](images/Anh2.png)
+        ![Example Image](./images/Anh2.png)
 
 3. **Lấy danh sách công việc hoàn thành** (GET)
    - URL: `http://localhost:5000/todoitems/complete`
-        ![Example Image](images/Anh3.png)
+        ![Example Image](./images/Anh3.png)
 
 4. **Xóa một công việc** (DELETE)
    - URL: `http://localhost:5000/todoitems/1`
-        ![Example Image](images/Anh4.png)
+        ![Example Image](./images/Anh4.png)
 
 5. **Lấy thông tin chi tiết một công việc** (GET)
    - URL: `http://localhost:5000/todoitems/2`
-        ![Example Image](images/Anh5.png)
+        ![Example Image](./images/Anh5.png)
 
 6. **Cập nhật thông tin công việc** (PUT)
    - URL: `http://localhost:5000/todoitems/2`
@@ -80,7 +80,7 @@ Dưới đây là các bước thử nghiệm API bằng công cụ như Postman
      }
      ```
 
-     ![Example Image](images/Anh5.png)
+     ![Example Image](./images/Anh5.png)
 ---
 ## 5. Công nghệ sử dụng
 - **Back-End**: ASP.NET Core Minimal API, Entity Framework Core
